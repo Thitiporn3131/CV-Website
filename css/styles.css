@@ -146,3 +146,53 @@ hr{
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
   }
+  @media (min-width: 319px) and (max-width: 480px) {
+    body{
+        text-align: center;
+
+    }
+    .first-box{
+        background-color:#B0DAFF;
+        position: absolute;
+        padding-top: 100px;
+        color: #576CBC;
+        display: block;
+    }
+    .up-cloud{
+        position:absolute;
+    }
+    .second-container{
+        margin-top: 0px;
+        text-align: center;
+        margin-left: 50%;
+
+    }
+    .profile{
+        padding-top: 600px;
+        text-align: center;
+        
+    }
+    .pic-sa{
+        width: 70%;
+        display: block;
+        text-align: center;
+        margin-left: 18%;
+    }
+    hr{
+        margin-left: 300px;
+    }
+    .third-container{
+        position: absolute;
+    }
+    .skill-row{
+        padding-left: 180px;
+        padding-right: 150px;
+    }
+    .skills{
+        text-align: center;
+    }
+    span{
+        padding-left: 100px;
+    
+    }
+  }
